@@ -55,11 +55,11 @@ function Welcome() {
   <div className ="App-header">
     <Container className="App-header">
       <h1 class = "text">
-        Welcome to my portfolio
+       Welcome to my Portfolio
       </h1>
-      <Container class= "pic">
+      <div class="pic">
       <img src={profilepic}/>
-      </Container>
+      </div>
       <Link to="/Main"><Button>ENTER</Button></Link>
     </Container>
   </div>
