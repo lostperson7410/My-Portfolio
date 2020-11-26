@@ -21,4 +21,12 @@ justify-content: center;
 .text{
     color: white;
 }
+.pic{
+    padding: 20px;
+    text-align: center;
+}
+.fixflag{
+    width: 10%;
+    height: auto;
+}
 
