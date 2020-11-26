@@ -14,9 +14,13 @@ function Main() {
         <div class='pic'>
           <img src={profilepic}/>
         </div>
-        <Mcard/>
-
-
+        <div class='yellow'>
+        <div class='hyellow'>
+           <h1>About Me</h1>
+        </div>
+          <Mcard/>
+        </div>
+        
       </div>
       
     );

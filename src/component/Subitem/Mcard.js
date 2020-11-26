@@ -10,7 +10,7 @@ function Main() {
       <div>
           
 
-        <div class="container" class="center">
+        <div class="container" class='pading'>
           <Card>
           <Table striped bordered hover>
                 <thead>

@@ -29,7 +29,14 @@ justify-content: center;
     width: 10%;
     height: auto;
 }
-.bg-1{
-    background-color: black;
+.yellow{
+    background-color: #F4BB36;
+    min-height: 100vh;
+
+}
+.hyellow{
+    padding: 20px;
+    text-align: center;
+
 }
 
