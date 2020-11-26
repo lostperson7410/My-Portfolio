@@ -1,20 +1,44 @@
-import Navbar from './Navbar'
 import {Button, Container,Row,Col,ListGroup,Table,Card, Carousel} from 'react-bootstrap'
-import profilepic from '../pic/001.jpg'
-import thailand from '../pic/thailand.png'
-import Mcard from './Subitem/Mcard'
-import './Main.css'
-import './Subitem/Mcard.css'
+import thailand from '../../pic/thailand.png'
+import './Mcard.css'
 
 function Main() {
 
+    
     return(
+        
       <div>
-          <Navbar/>
-        <div class='pic'>
-          <img src={profilepic}/>
-        </div>
-        <Mcard/>
+          
+
+        <div class="container" class="center">
+          <Card>
+          <Table striped bordered hover>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <td>อภินันท์ สอาดเอี่ยม</td>
+                    <th>Age</th>
+                    <td>21</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>StudentID</th>
+                    <td>6035512013</td>
+                    <th>Nationality</th>
+                    <td><img src={thailand} class="fixflag"></img></td>
+
+                  </tr>
+                  <tr>
+                  <th>Skill</th>
+                  <td>...</td>
+                  </tr>
+                  
+                </tbody>
+             </Table>
+          </Card>
+
+         </div>
 
 
       </div>
