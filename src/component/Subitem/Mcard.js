@@ -10,30 +10,36 @@ function Main() {
       <div>
           
 
-        <div class="container" class='pading'>
+        <div class="container">
           <Card>
           <Table striped bordered hover>
                 <thead>
                   <tr>
                     <th>Name</th>
                     <td>อภินันท์ สอาดเอี่ยม</td>
-                    <th>Age</th>
-                    <td>21</td>
+                  </tr>
+                  <tr>
+                  <th>Age</th>
+                  <td>21</td>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th>StudentID</th>
                     <td>6035512013</td>
-                    <th>Nationality</th>
-                    <td><img src={thailand} class="fixflag"></img></td>
-
+                  </tr>
+                  <tr>
+                  <th>Nationality</th>
+                  <td><img src={thailand} class="fixflag"></img></td>
                   </tr>
                   <tr>
                   <th>Skill</th>
-                  <td>...</td>
+                  <td>C,C+,Java,JavaScript,Dart,Fluter</td>
                   </tr>
-                  
+                  <tr>
+                  <th>Extra Skill</th>
+                  <td>photography,video edit</td>
+                  </tr>
                 </tbody>
              </Table>
           </Card>

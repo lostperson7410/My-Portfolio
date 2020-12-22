@@ -10,15 +10,17 @@ function Main() {
 
     return(
       <div>
-          <Navbar/>
+            <Navbar/>
         <div class='pic'>
           <img src={profilepic}/>
         </div>
-        <div class='yellow'>
+        <div>
         <div class='hyellow'>
            <h1>About Me</h1>
         </div>
-          <Mcard/>
+        <div class='container'>
+          <Row><Mcard/> <p>sss</p></Row>
+        </div>
         </div>
         
       </div>
