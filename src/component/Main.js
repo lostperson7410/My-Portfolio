@@ -12,18 +12,24 @@ function Main() {
       <div >
         <Container>
           <Row class='center'>
-          <div class='pic'>
-          <img src={profilepic}/>
-          </div>
-          <div class='hyellow'>
-          <h1>About Me</h1>
-          </div>
+            <Container class= 'center'>
+            <div class='pic'>
+            <img src={profilepic}/>
+            </div>
+            <div class='hyellow'>
+            <h1>About Me</h1>
+            </div>
+            </Container>
           </Row>
           <Row>
             <Col>
-
+            <Mcard/>
             </Col>
             <Col>
+
+            <Row>
+              
+            </Row>
 
             </Col>
           </Row>

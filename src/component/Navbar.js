@@ -7,7 +7,7 @@ import profilepic from '../pic/001.jpg'
 function Navbar() {
   return (
   <div>
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-inverse navbar-fixed-top sticky" role='navigation'>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-inverse navbar-fixed-top sticky"role='navigation'>
       <ul class="navbar-nav">
       <img src={profilepic} class ="logopic"/>
         <li class="nav-item center bg-dark">
