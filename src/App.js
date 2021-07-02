@@ -11,7 +11,7 @@ import {
 import Main from "./component/Main"
 import Skill from "./component/Skill"
 import Picture from "./component/Picture"
-import Contact from "./component/Contact"
+import Footer from "./component/Footer"
 import profilepic from './pic/001.jpg'
 
 /*
@@ -42,8 +42,8 @@ function App(){
           <Route path="/Picture">
             <Picture />
           </Route>
-          <Route path="/Contact">
-            <Contact />
+          <Route path="/Footer">
+            <Footer />
           </Route>
         </Switch>
     </Router>
@@ -77,13 +77,13 @@ function Welcome() {
     <div className="firstBG"></div>
     <div class= "bg-text">
     <Container className="firstContainer">
-      <h2>
-       Hi ,I'm
+      <h2 className="textG">
+       Hello world
       </h2>
-      <h1 class = "text">
-        Apinun Saartiamm
+      <h1 className="textG">
+        I'm Apinun Saartiamm
       </h1>
-      <h2>
+      <h2 className="textG">
         Welcome to my Portfolio
       </h2>
       <div class="pic">
@@ -98,9 +98,8 @@ function Welcome() {
     <section class="skill" id='skill'>
     <Skill/>
     </section>
-    <section class="contact" id='contact'>
-    <Contact/>
-    </section>
+
+    <Footer/>
 
 
 

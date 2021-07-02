@@ -34,13 +34,24 @@
   -webkit-filter: blur(8px);
 
 }
+.textG{
+  background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #ec7310);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 
+}
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
   position: absolute;
   top: 50%;
   left: 50%;
