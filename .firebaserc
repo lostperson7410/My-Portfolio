@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "portfolio-76fb2"
+    "default": "portfolio-76fb2",
+    "Portfolio": "portfolio-76fb2"
   }
 }
