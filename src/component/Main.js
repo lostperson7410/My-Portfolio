@@ -9,19 +9,25 @@ import './Subitem/Mcard.css'
 function Main() {
 
     return(
-      <div>
-            <Navbar/>
-        <div class='pic'>
+      <div >
+        <Container>
+          <Row class='center'>
+          <div class='pic'>
           <img src={profilepic}/>
-        </div>
-        <div>
-        <div class='hyellow'>
-           <h1>About Me</h1>
-        </div>
-        <div class='container'>
-          <Row><Mcard/> <p>sss</p></Row>
-        </div>
-        </div>
+          </div>
+          <div class='hyellow'>
+          <h1>About Me</h1>
+          </div>
+          </Row>
+          <Row>
+            <Col>
+
+            </Col>
+            <Col>
+
+            </Col>
+          </Row>
+        </Container>
         
       </div>
       

@@ -1,12 +1,11 @@
-import Navbar from './component/Navbar'
-import {Button, Container,Row} from 'react-bootstrap'
+import {Button, Container} from 'react-bootstrap'
 import './App.css';
+import Navbar from './component/Navbar';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link,
-  useRouteMatch
 } from "react-router-dom";
 
 import Main from "./component/Main"
@@ -53,20 +52,31 @@ function Welcome() {
   return (
   
   <div className ="App-header">
-    <Container className="App-header">
+    
+<Navbar/>
+    <div className="firstBG"></div>
+    <div class= "bg-text">
+    <Container className="firstContainer">
+      <h2>
+       Hi ,I'm
+      </h2>
       <h1 class = "text">
-       Welcome to my Portfolio
+        Apinun Saartiam
       </h1>
+      <h2>
+        Welcome to my Portfolio
+      </h2>
       <div class="pic">
-      <img src={profilepic}/>
+      
       </div>
       <Link to="/Main"><Button>ENTER</Button></Link>
     </Container>
-  </div>
+    </div>
 
-
+    <Main/>
   
-   
+  </div>
+  
 
   
     /*

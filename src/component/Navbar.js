@@ -1,23 +1,26 @@
 import {Container,Row} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import './Main.css'
+import profilepic from '../pic/001.jpg'
+
 
 function Navbar() {
   return (
   <div>
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-inverse navbar-fixed-top sticky" role='navigation'>
       <ul class="navbar-nav">
-        <li class="nav-item">
+      <img src={profilepic} class ="logopic"/>
+        <li class="nav-item center bg-dark">
          <Link to="/Main">
          <a class="nav-link" >Home</a>  
          </Link> 
         </li>
-        <li class="nav-item">
+        <li class="nav-item center bg-dark">
         <Link to="/Picture">
           <a class="nav-link" >Picture</a>
           </Link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item center bg-dark">
         <Link to="/Contact">
           <a class="nav-link" >Contact</a>
           </Link>
