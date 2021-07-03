@@ -1,4 +1,4 @@
-import {Container,Row} from 'react-bootstrap'
+import {Container,Row,Col} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import './Main.css'
 import profilepic from '../pic/001.jpg'
@@ -7,9 +7,13 @@ import profilepic from '../pic/001.jpg'
 function Navbar() {
   return (
   <div>
+    <Container>
+      <Col>
+      {profilepic}
+      </Col>
+      <Col>
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-inverse navbar-fixed-top sticky"role='navigation'>
       <ul class="navbar-nav">
-      <img src={profilepic} class ="logopic"/>
         <li class="nav-item center bg-dark">
          <Link to="/Main">
          <a class="nav-link" >Home</a>  
@@ -27,6 +31,8 @@ function Navbar() {
         </li>
       </ul>
     </nav>
+      </Col>
+    </Container>
   </div>
   
   

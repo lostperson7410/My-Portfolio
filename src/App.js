@@ -1,4 +1,4 @@
-import {Button, Container,Dropdown,Navbar,Nav,NavDropdown,Form,FormControl} from 'react-bootstrap'
+import {Button, Container,Dropdown,Navbar,Nav,NavDropdown,Form,FormControl,Col} from 'react-bootstrap'
 import './App.css';
 
 import {
@@ -55,7 +55,7 @@ function Welcome() {
   <div className ="App-header">
   <section class="#home" id='home'>
   <Navbar bg="light" expand="lg" sticky="top">
-  <Navbar.Brand href="#">
+  <Navbar.Brand>
     <img src={profilepic} class ="logopic"/>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
@@ -77,10 +77,9 @@ function Welcome() {
     <div className="firstBG"></div>
     <div class= "bg-text">
     <Container className="firstContainer">
-      <h2 className="textG">
-       Hello world
-      </h2>
       <h1 className="textG">
+        Hello People!
+        <br></br>
         I'm Apinun Saartiamm
       </h1>
       <h2 className="textG">

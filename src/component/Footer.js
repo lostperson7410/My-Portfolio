@@ -15,24 +15,20 @@ function Footer() {
             <Container class="bg">
               <Row>
               <Col>
-              <Navbar expand="lg" sticky="top">
-                <Navbar.Brand href="#">
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
+              <Navbar expand="sm">
+                <Navbar>
                   <Nav
                     className="mr-auto my-2 my-lg-0"
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                   >
-                    <Nav.Link a href="#home">Home</Nav.Link>
+                    <Nav.Link a href="#home" class = "Button">Home</Nav.Link>
                     <Nav.Link a href="#aboutme">About me</Nav.Link>
                     <Nav.Link a href="#skill">Skill</Nav.Link>
                     <Nav.Link a href="#contact">Contact</Nav.Link>
                   </Nav>
-                </Navbar.Collapse>
-              </Navbar>
-
+                  </Navbar>
+                </Navbar>
               </Col>
 
               <Col>

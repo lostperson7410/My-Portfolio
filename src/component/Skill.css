@@ -1,0 +1,15 @@
+.textColor{
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #ec7310);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+    }
+
+.SpaceContent{
+    justify-content:space-around;
+    margin-top: 10px;
+}

@@ -6,6 +6,8 @@
   background-repeat: no-repeat;
   background-size: auto;
   min-height: 100vh;
+
+  
 }
 .App-logo {
   height: 40vmin;
@@ -19,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282c34 ;
 }
 
 .firstBG{
@@ -97,3 +99,4 @@
   padding: 50px;
   text-align: center;
 }
+
