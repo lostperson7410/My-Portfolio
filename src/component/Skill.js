@@ -5,7 +5,10 @@ import thailand from '../pic/thailand.png'
 import SkillCard from './Subitem/SkillCard'
 import './Skill.css'
 import './Subitem/Mcard.css'
-
+import LanguageIcon from '@material-ui/icons/Language';
+import WebIcon from '@material-ui/icons/Web';
+import AndroidIcon from '@material-ui/icons/Android';
+import StorageIcon from '@material-ui/icons/Storage';
 function Skill() {
 
 //Row object max 3 item
@@ -20,14 +23,13 @@ function Skill() {
             </div>
           </Row>
         </Container>
-        <Container>
+        <Container >
           <Row className="SpaceContent"> 
-            <SkillCard/>
-            <SkillCard/>
-            <SkillCard/>
+            <SkillCard icon = <WebIcon/> title="WEB DEV" description="C,C+,Java,JavaScript,Dart,Fluter,React" className="cardSpace"/>
+            <SkillCard icon = <AndroidIcon/> title="MACHINE LEARING & IMAGE PROCESSING" description="Python,OpenCV,Tensorflow"/>
+            <SkillCard icon = <StorageIcon/>title="DATABASE & DEVOPS" description="MongaDB,Tensorflow"/>
           </Row>
         </Container>
-        
       </div>
       
     );

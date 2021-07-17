@@ -2,19 +2,19 @@ import {Button, Container,Row,Col,ListGroup,Table,Card, Carousel} from 'react-bo
 import thailand from '../../pic/thailand.png'
 import './Mcard.css'
 
-function SkillCard() {
+
+function SkillCard(props) {
 
     
     return(
         
       <div>
         <Card border="danger" style={{ width: '18rem' }}>
-    <Card.Header>Header</Card.Header>
+    <Card.Header>{props.icon}</Card.Header>
     <Card.Body>
-      <Card.Title>Danger Card Title</Card.Title>
+      <Card.Title>{props.title}</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
+      {props.description}
       </Card.Text>
     </Card.Body>
   </Card>

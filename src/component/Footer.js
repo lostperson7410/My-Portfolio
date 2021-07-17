@@ -14,7 +14,40 @@ function Footer() {
           <div class="bg">
             <Container class="bg">
               <Row>
+
               <Col>
+                <Row >
+                <SocialIcon url="https://facebook.com/kunchecksound" a href="#"/>
+                <SocialIcon url="https://github.com/lostperson7410" a href="#"/>
+                <SocialIcon url="https://instagram.com/apn_sfilm/"a href="#" />
+                </Row>
+              </Col>
+
+              <Col>
+              <h1>Contact</h1>
+              <p>please click on the social media Button</p>
+              </Col>
+
+              <Col>
+                <p>Built my Apinun Saartiam.</p>
+                <p>Copyright © by Apinun Saartiam.</p>
+              </Col>
+
+
+              </Row>
+
+            </Container>
+          </div>
+        </footer>
+      </div>
+    );
+    
+  }
+  export default Footer;
+
+
+  /*
+                <Col>
               <Navbar expand="sm">
                 <Navbar>
                   <Nav
@@ -30,30 +63,4 @@ function Footer() {
                   </Navbar>
                 </Navbar>
               </Col>
-
-              <Col>
-                <Row >
-                <SocialIcon url="https://facebook.com/kunchecksound" a href="#"/>
-                <SocialIcon url="https://github.com/lostperson7410" a href="#"/>
-                <SocialIcon url="https://instagram.com/apn_sfilm/"a href="#" />
-                </Row>
-              </Col>
-
-              <Row>
-                <Col>
-                <p>Built my Apinun Saartiam.</p>
-                <p>Copyright © by Apinun Saartiam.</p>
-                </Col>
-
-              </Row>
-
-              </Row>
-
-            </Container>
-          </div>
-        </footer>
-      </div>
-    );
-    
-  }
-  export default Footer;
+  */ 

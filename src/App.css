@@ -96,7 +96,31 @@
   }
 }
 .pic{
-  padding: 50px;
+  padding: 30px;
   text-align: center;
+}
+
+div{
+  font-size: 1rem;
+  text-align: center;
+
+
+   font-family: 'Niconne', cursive;
+  text-shadow: 5px 5px 0px #eb452b, 
+              10px 10px 0px #efa032, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #017e7f, 
+
+}
+
+p{
+text-align: center;
+font-family: "Helvetica";
+}
+
+a{
+text-decoration: none;
+font-family: 'Niconne', cursive;
+
 }
 

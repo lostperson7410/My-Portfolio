@@ -8,6 +8,12 @@ import {
   Link,
 } from "react-router-dom";
 
+
+import Zoom from 'react-reveal/Zoom';
+import LightSpeed from 'react-reveal/LightSpeed';
+
+
+
 import Main from "./component/Main"
 import Skill from "./component/Skill"
 import Picture from "./component/Picture"
@@ -56,7 +62,7 @@ function Welcome() {
   <section class="#home" id='home'>
   <Navbar bg="light" expand="lg" sticky="top">
   <Navbar.Brand>
-    <img src={profilepic} class ="logopic"/>
+    <img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/211006731_4179318902144265_2107520589350827328_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeHMvG9h9M2Ppd4Eecbdao4RfEQnOXtjAXN8RCc5e2MBc-YHCTRBgSE1FnS2tDRBIavvBLBVhokHtstqkxjICDN4&_nc_ohc=ba71vkaabA0AX_Oo_2X&tn=n2oItdT4TCnaGnKk&_nc_ht=scontent.fbkk17-1.fna&oh=898a8bd522a31d93cc2a066005dc752c&oe=60F756E4" class ="logopic"/>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll">
@@ -76,19 +82,18 @@ function Welcome() {
 
     <div className="firstBG"></div>
     <div class= "bg-text">
+    <LightSpeed cascade>
     <Container className="firstContainer">
       <h1 className="textG">
         Hello People!
         <br></br>
         I'm Apinun Saartiamm
       </h1>
-      <h2 className="textG">
-        Welcome to my Portfolio
-      </h2>
       <div class="pic">
       
       </div>
     </Container>
+    </LightSpeed>
     </div>
     </section>
     <section class="aboutme" id='aboutme'>
@@ -97,8 +102,9 @@ function Welcome() {
     <section class="skill" id='skill'>
     <Skill/>
     </section>
-
+    <section class="contact" id='contact'>
     <Footer/>
+    </section>
 
 
 
