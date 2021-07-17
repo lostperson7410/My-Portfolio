@@ -15,7 +15,7 @@ function Main() {
           <Row class='center'>
             <Container class= 'center'>
             <div class='pic'>
-            <img src={profilepic}/>
+            <img src={profilepic} className='box'/>
             </div>
             <div class='hyellow'>
             <h1>About Me</h1>

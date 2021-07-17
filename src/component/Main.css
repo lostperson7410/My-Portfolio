@@ -21,6 +21,12 @@ justify-content: center;
 .pic{
     padding: 20px;
     text-align: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 2s;
+
+}
+.pic:hover{
+    transform: rotate(360deg);
 }
 .fixflag{
     width: 10%;
@@ -43,3 +49,4 @@ justify-content: center;
     -moz-text-fill-color: transparent;
 
 }
+

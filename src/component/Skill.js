@@ -27,7 +27,7 @@ function Skill() {
           <Row className="SpaceContent"> 
             <SkillCard icon = <WebIcon/> title="WEB DEV" description="C,C+,Java,JavaScript,Dart,Fluter,React" className="cardSpace"/>
             <SkillCard icon = <AndroidIcon/> title="MACHINE LEARING & IMAGE PROCESSING" description="Python,OpenCV,Tensorflow"/>
-            <SkillCard icon = <StorageIcon/>title="DATABASE & DEVOPS" description="MongaDB,Tensorflow"/>
+            <SkillCard icon = <StorageIcon/> title="DATABASE & DEVOPS" description="MongaDB,Tensorflow"/>
           </Row>
         </Container>
       </div>
