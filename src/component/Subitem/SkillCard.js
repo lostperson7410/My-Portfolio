@@ -9,14 +9,18 @@ function SkillCard(props) {
     return(
         
       <div>
-        <Card border="danger" style={{ width: '18rem' }}>
-    <Card.Header>{props.icon}</Card.Header>
-    <Card.Body>
-      <Card.Title>{props.title}</Card.Title>
-      <Card.Text>
-      {props.description}
-      </Card.Text>
-    </Card.Body>
+      <Card border="danger"   style={{ width: '18rem' }}>
+        <Card.Header >
+          <div >
+          {props.icon}
+          </div>
+          </Card.Header>
+        <Card.Body>
+          <Card.Title>{props.title}</Card.Title>
+          <Card.Text>
+          {props.description}
+          </Card.Text>
+        </Card.Body>
   </Card>
       </div>
       

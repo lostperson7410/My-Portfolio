@@ -26,7 +26,7 @@
 
 .firstBG{
   background-image: url(./pic/BGIMG/0_kBHpKva09AsGj7RQ.jpg);
-  min-height:100vh;
+  min-height:60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -103,27 +103,13 @@
 div{
   font-size: 1rem;
   text-align: center;
-
-
-   font-family: 'Niconne', cursive;
   text-shadow: 5px 5px 0px #eb452b, 
               10px 10px 0px #efa032, 
               15px 15px 0px #46b59b, 
               20px 20px 0px #017e7f, 
 
 }
-
-p{
-text-align: center;
-font-family: "Helvetica";
-}
-
-a{
-text-decoration: none;
-font-family: 'Niconne', cursive;
-
-}
-
+/*font-family: 'Niconne', cursive;*/
 
 /*transition*/
 

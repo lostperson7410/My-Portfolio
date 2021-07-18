@@ -5,9 +5,35 @@ import thailand from '../pic/thailand.png'
 import Mcard from './Subitem/Mcard'
 import './Main.css'
 import './Subitem/Mcard.css'
+import React, { useEffect } from "react"
+
+
+import firebase from 'firebase'
+import 'firebase/storage'
+
 
 function Main() {
+/*
+  const db = firebase.firestore();
+  const [fileUrl, setFileUrl] = React.useState(null);
+  const [users, setUsers] = React.useState([]);
 
+
+  
+/* Get DATA */
+/*
+  useEffect(() => {
+    const fetchUsers = async () => {
+      const usersCollection = await db.collection("users").get();
+      setUsers(
+        usersCollection.docs.map((doc) => {
+          return doc.data();
+        })
+      );
+    };
+    fetchUsers();
+  }, []);
+*/
 
     return(
       <div >
@@ -17,24 +43,40 @@ function Main() {
             <div class='pic'>
             <img src={profilepic} className='box'/>
             </div>
-            <div class='hyellow'>
+
+            <div class='textColor'>
             <h1>About Me</h1>
             </div>
+
+            <div>
+              <Container>
+                <Row>
+                  <Col className='bgContainer1'>
+
+                  <a>I intend to constantly develop my skills and develop knowledge in work ands I ready to learn new things. </a>
+                  <a>I would like to get the opportunity to learn and develop my skills better.</a>
+
+                  </Col>
+
+                  <Col className='bgContainer3'>
+                  5
+                  </Col>       
+                    
+                </Row>
+                <Row>
+
+                <Col className='bgContainer2'>
+                  5
+                </Col>       
+                
+                </Row>
+              </Container>
+            </div>
+
             </Container>
-          </Row>
-          <Row>
-            <Col>
-            <Mcard/>
-            </Col>
-            <Col>
-
-            <Row>
-              
             </Row>
-
-            </Col>
-          </Row>
         </Container>
+
         
       </div>
       

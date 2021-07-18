@@ -189,7 +189,6 @@ function Welcome() {
     </section>
     <section class="contact" id='contact'>
     <Footer/>
-    <Upload/>
     </section>
 
 

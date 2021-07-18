@@ -55,3 +55,22 @@ justify-content: center;
 .box:hover{
     transform: rotate(360deg);
 }
+
+.bgContainer1{
+    
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #ec7310);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-align:left;
+
+}
+.bgContainer2{
+    background-color: red
+}
+.bgContainer3{
+    background-color: blue
+}

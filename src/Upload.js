@@ -41,6 +41,7 @@ function Upload() {
       avatar: fileUrl,
     });
   };
+/* Get DATA */
 
   useEffect(() => {
     const fetchUsers = async () => {
@@ -61,8 +62,31 @@ function Upload() {
         <input type="text" name="username" placeholder="NAME" />
         <button>Submit</button>
       </form>
+      
+      
       <ul>
         {users.map((user) => {
+          return (
+            <li key={user.name}>
+              <a href={user.avatar} alt={user.name}>{user.name}</a>
+            </li>
+          );
+        })}
+      </ul>
+
+
+    </>
+  );
+}
+
+export default Upload;
+
+
+/*GET DATA 
+
+
+      <ul>
+        {users.map((user) => { 
           return (
             <li key={user.name}>
               <img width="100" height="100" src={user.avatar} alt={user.name} />
@@ -71,8 +95,16 @@ function Upload() {
           );
         })}
       </ul>
-    </>
-  );
-}
 
-export default Upload;
+
+        <ul>
+        {users.map((user) => {
+          return (
+            <li key={user.name}>
+              <a href={user.avatar} alt={user.name}>{user.name}</a>
+            </li>
+          );
+        })}
+      </ul>
+
+*/
