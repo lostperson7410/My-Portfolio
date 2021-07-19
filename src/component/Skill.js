@@ -3,6 +3,9 @@ import {Button, Container,Row,Col,ListGroup,Table,Card, Carousel} from 'react-bo
 import profilepic from '../pic/001.jpg'
 import thailand from '../pic/thailand.png'
 import SkillCard from './Subitem/SkillCard'
+import DBcard from './Subitem/DBcard'
+import MLcard from './Subitem/MLcard'
+
 import './Skill.css'
 import './Subitem/Mcard.css'
 import LanguageIcon from '@material-ui/icons/Language';
@@ -23,11 +26,11 @@ function Skill() {
             </div>
           </Row>
         </Container>
-        <Container >
-          <Row className="SpaceContent"> 
-            <SkillCard icon = <WebIcon/> title="WEB DEV" description="C,C+,Java,JavaScript,Dart,Fluter,React"/>
-            <SkillCard icon = <AndroidIcon/> title="MACHINE LEARING & IMAGE PROCESSING" description="Python,OpenCV,Tensorflow"/>
-            <SkillCard icon = <StorageIcon/> title="DATABASE & DEVOPS" description="MongaDB,Tensorflow"/>
+        <Container>
+          <Row> 
+            <Col className="SpaceContentSkills"><SkillCard title="WEB DEV" description="C,C+,Java,JavaScript,Dart,Fluter,React"/></Col>
+            <Col className="SpaceContentSkills"><MLcard  title="MACHINE LEARING & IMAGE PROCESSING" description="Python,OpenCV,Tensorflow"/></Col>
+            <Col className="SpaceContentSkills"><DBcard title="DATABASE & DEVOPS" description="MongaDB,Tensorflow"/></Col>
           </Row>
         </Container>
       </div>
@@ -39,3 +42,9 @@ function Skill() {
   
 
   export default Skill;
+
+  /* <MLcard  title="MACHINE LEARING & IMAGE PROCESSING" description="Python,OpenCV,Tensorflow"/> 
+  
+              <DBcard title="DATABASE & DEVOPS" description="MongaDB,Tensorflow"/>
+
+  */

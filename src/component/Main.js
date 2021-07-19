@@ -6,6 +6,7 @@ import Mcard from './Subitem/Mcard'
 import './Main.css'
 import './Subitem/Mcard.css'
 import React, { useEffect } from "react"
+import { SocialIcon } from 'react-social-icons';
 
 
 import firebase from 'firebase'
@@ -66,7 +67,13 @@ function Main() {
                 <Row>
 
                 <Col className='bgContainer2'>
-                  5
+
+                  <SocialIcon url="https://facebook.com/kunchecksound" a href="#"/>
+                  <SocialIcon url="https://github.com/lostperson7410" a href="#"/>
+                  <SocialIcon url="https://instagram.com/apn_sfilm/"a href="#" />
+                  <SocialIcon url="https://medium.com/me/stories/public"a href="#" />
+                  
+
                 </Col>       
                 
                 </Row>

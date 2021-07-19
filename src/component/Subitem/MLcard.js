@@ -7,16 +7,15 @@ import WebIcon from '@material-ui/icons/Web';
 import AndroidIcon from '@material-ui/icons/Android';
 import StorageIcon from '@material-ui/icons/Storage';
 
-function SkillCard(props) {
+function MLcard(props) {
 
-    
     return(
         
       <div>
       <Card border="danger"   style={{ width: '18rem' }}>
-        <Card.Header class = 'icons' >
+        <Card.Header class = 'icons'>
           <div>
-          <WebIcon style={{ fontSize: 60,color: 'white'}} className='sizeicon'/>
+          <AndroidIcon style={{ fontSize: 60,color: 'white'}} className='sizeicon'/>
           </div>
           </Card.Header>
         <Card.Body>
@@ -32,6 +31,4 @@ function SkillCard(props) {
     
   }
   
-  
-
-  export default SkillCard;
+  export default MLcard;
