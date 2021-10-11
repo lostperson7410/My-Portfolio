@@ -9,6 +9,8 @@ import React, { useEffect } from "react"
 import { SocialIcon } from 'react-social-icons';
 
 
+import Testpic from './Subitem/Testpic'
+
 import firebase from 'firebase'
 import 'firebase/storage'
 
@@ -38,7 +40,7 @@ function Main() {
 
     return(
       <div >
-        <Container>
+        <Container class="sizeContiner">
           <Row class='center'>
             <Container class= 'center'>
             <div class='pic'>
@@ -60,7 +62,7 @@ function Main() {
                   </Col>
 
                   <Col className='bgContainer3'>
-                  5
+                    
                   </Col>       
                     
                 </Row>

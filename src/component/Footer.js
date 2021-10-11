@@ -24,11 +24,6 @@ function Footer() {
               </Col>
 
               <Col>
-              <h1>Contact</h1>
-              <p>please click on the social media Button</p>
-              </Col>
-
-              <Col>
                 <p>Built my Apinun Saartiam.</p>
                 <p>Copyright © by Apinun Saartiam.</p>
               </Col>
